@@ -1,0 +1,30 @@
+{
+    name: "landmarx/attribute",
+    type: "library",
+    description: "attribute component of the landmarx system.",
+    keywords: [
+        "attribute"
+        ],
+    homepage: "http://landmarx.daviddurost.net",
+    license: "MIT",
+    authors: [
+        {
+            name: "David Durost",
+            homepage: "http://daviddurost.net"
+        }
+    ],
+    require: {
+        php: ">=5.4"
+    },
+    require-dev: { },
+    autoload: {
+        psr-4: {
+            Landmarx\Component\Attribut\: ""
+        }
+    },
+    extra: {
+        branch-alias: {
+            dev-master: "0.1.*-dev"
+        }
+    }
+}
